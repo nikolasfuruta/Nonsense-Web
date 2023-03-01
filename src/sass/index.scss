@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
 }
 
+//Home
 .home_container{
   position: relative;
 }
@@ -43,6 +44,24 @@ body {
   color: white;
   font-size: 32px;
   padding: 16px 32px;
+}
+
+//Beneficios
+.beneficios_container{
+  .beneficios_col_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  font-weight: bold;
+  .beneficios_title {
+    font-size: 50px;
+  }
+
+  .beneficios_item {
+    font-size: 25px;
+  }
 }
 
 @import "~bootstrap/scss/bootstrap";

@@ -6,7 +6,7 @@ import home from '../img/home/SUITE MASTER 4.png'
 
 const Home = () => {
   return (
-    <Card className='home_container'>
+    <Card border="light" className='home_container'>
       <Card.Img className='home_img rounded-0' src={ home } alt="Home image" />
       <Card.ImgOverlay>
         <Container>
