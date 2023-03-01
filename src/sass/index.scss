@@ -1,0 +1,48 @@
+//custom here
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home_container{
+  position: relative;
+}
+
+.home_img {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  filter: opacity(90%);
+
+}
+
+.home_middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home_container:hover .home_img {
+  //opacity: 0.3;
+  -webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
+  filter: blur(4px);
+}
+
+.home_container:hover .home_middle {
+  opacity: 1;
+}
+
+.home_text {
+  background-color: #000;
+  color: white;
+  font-size: 32px;
+  padding: 16px 32px;
+}
+
+@import "~bootstrap/scss/bootstrap";
