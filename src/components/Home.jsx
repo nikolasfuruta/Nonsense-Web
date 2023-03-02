@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import home from '../img/home/SUITE MASTER 4.png'
+import home from '../img/home/home.png'
 
 const Home = () => {
   return (
