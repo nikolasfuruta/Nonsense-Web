@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
 import Beneficios from './components/Beneficios';
-import Sobre from './components/Sobre';
+import About from './components/About';
 
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <Header/>
       <Home/>
       <Beneficios/>
-      <Sobre/>
+      <About/>
     </>
   )
 }

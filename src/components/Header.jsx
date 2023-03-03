@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -24,7 +24,7 @@ const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav>
-                <Nav.Link className="ms-xl-3" href="#sobre"><h3>Sobre</h3></Nav.Link>
+                <Nav.Link className="ms-xl-3" href="#about"><h3>Sobre</h3></Nav.Link>
                 <Nav.Link className="ms-xl-3" href="#portfolio"><h3>Portfólio</h3></Nav.Link>
                 <Nav.Link className="ms-xl-3" href="#contato"><h3>Contato</h3></Nav.Link>
               </Nav>

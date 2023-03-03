@@ -28,11 +28,12 @@ body {
   }
 }
 
+
 //Header
 .header_col_a{
   display: flex;
   flex-direction: row;
-  justify-content:start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -53,7 +54,6 @@ body {
   transition: .5s ease;
   backface-visibility: hidden;
   filter: opacity(90%);
-
 }
 
 .home_middle {
@@ -85,7 +85,7 @@ body {
 
 //Beneficios
 .beneficios_container{
-  height: 35rem;
+  height: 40rem;
   display: inline-flex;
   justify-content: center;
 
@@ -106,13 +106,34 @@ body {
   }
 
   .beneficios_item {
-    font-size: 25px;
+    @include text_size(20px);
   }
 }
 
 //sobre nós
-.sobre_container{
-
+.about_row{
+  
+  .about_col{
+    background-image: url('../img/about/JANTAR 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    padding: 5%;
+    padding-top: 8%;
+  
+    .about_text{
+      @include text_size(15px);
+      color: #000;
+      background-color: rgb(255, 255, 255,0.8);
+      padding: 5%;
+      text-align: center;
+      line-height: 2;
+    }
+  }
 }
+
+
+
 
 @import "~bootstrap/scss/bootstrap";
