@@ -8,7 +8,6 @@ import logo from '../img/logo_nonsense.png';
 const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className='p-4'>
-    <Container fluid>
           <Col xs={{span:12}} lg={{span:8}} className='header_col_a'>
             <Navbar.Brand href="#home">
               <img
@@ -30,7 +29,6 @@ const Header = () => {
               </Nav>
             </Navbar.Collapse>
           </Col>
-    </Container>
     </Navbar>
   );
 }

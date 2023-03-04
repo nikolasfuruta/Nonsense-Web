@@ -28,7 +28,6 @@ body {
   }
 }
 
-
 //Header
 .header_col_a{
   display: flex;
@@ -45,42 +44,35 @@ body {
 }
 
 //Home
+
 .home_container{
-  position: relative;
-}
+  height: 500px;
+  background-image: url('../img/home/home.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
 
-.home_img {
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  filter: opacity(90%);
-}
+  .home_text{
+    background-color: #000;
+    color: #fff;
+    @include text_size(16px);
+    padding: 20px;
+    visibility: hidden;
+  }
 
-.home_middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.home_container:hover .home_img {
-  -webkit-filter: blur(4px); /* Safari 6.0 - 9.0 */
-  filter: blur(4px);
-}
-
-.home_container:hover .home_middle {
-  opacity: 1;
-}
-
-.home_text {
-  background-color: #000;
-  color: white;
-  padding: 16px 32px;
-  @include text_size(30px);
+  &:hover{
+    background-image: url('../img/home/home_blur.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .home_text{
+      visibility: visible;
+    }
+  }
 }
 
 //Beneficios
@@ -112,26 +104,30 @@ body {
 
 //sobre nós
 .about_row{
-  
+
   .about_col{
     background-image: url('../img/about/JANTAR 1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: auto;
-    padding: 5%;
-    padding-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
     .about_text{
-      @include text_size(15px);
+      font-size: 15px;
       color: #000;
       background-color: rgb(255, 255, 255,0.8);
       padding: 5%;
       text-align: center;
       line-height: 2;
+      width: 70vw;
     }
   }
 }
+
+  //portfolio
 
 
 

@@ -5,7 +5,7 @@ const About = () => {
 	return (
     <Container fluid id='about'>
       <Row className='about_row'>
-        <Col className='about_col'>
+        <Col className='about_col pt-5 pb-4'>
           <p className='about_text'>Imagine ter uma marcenaria que une tradição e inovação para oferecer
                 soluções únicas e diferenciadas. Essa é a Nonsense
                 Artesanal, um sonho que se tornou realidade há quatro anos, em 2018,
