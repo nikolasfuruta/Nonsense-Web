@@ -80,7 +80,7 @@ body {
   .home_text{
     background-color: #000;
     color: #fff;
-    @include text_size(16px);
+    @include text_size(30px);
     padding: 20px;
     visibility: hidden;
   }
@@ -178,6 +178,53 @@ body {
 }
 
 
+//contato
+.contato_container{
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  .contato_title{
+    text-align: center;
+    padding: 8rem;
+    color: #fff;
+    background-color: #000;
+    @include text_size(40px);
+  }
+
+  .contato_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .contato_col_a{
+      padding: 2.5rem;
+      .contato_inner_container_a{
+        padding: 1rem;
+        border: #000 solid 1px;
+        
+        .contato_item{
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    }
+
+    .contato_col_b{
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+      align-items: center;
+      padding: 2rem;
+
+      .contato_orcamento{
+        color: #fff;
+        background-color: #000;
+        padding: 1rem;
+      }
+    }
+  }
+}
 
 
 @import "~bootstrap/scss/bootstrap";

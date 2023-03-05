@@ -1,15 +1,14 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 
 
 
 const Home = () => {
   return (
     <Container fluid className='home_container p-0'>
-      <Nav.Link>
-        <p className='home_text'>Orçamento</p>
-      </Nav.Link>
+      <a style={{textDecoration:"none", color:"black"}} aria-label="Chat on WhatsApp" href="https://wa.me/12991910263">
+          <h2 className='home_text'>Orçamento</h2>
+      </a>
     </Container>
   )
 }

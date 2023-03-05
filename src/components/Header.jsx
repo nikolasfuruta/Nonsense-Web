@@ -1,13 +1,12 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../img/logo_nonsense.png';
 
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" className='p-4'>
+    <Navbar id='home' collapseOnSelect expand="lg" className='p-4'>
           <Col xs={{span:12}} lg={{span:8}} className='header_col_a'>
             <Navbar.Brand href="#home">
               <img
