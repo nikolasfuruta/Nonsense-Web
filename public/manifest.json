@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Nonsense Artesanal",
+  "name": "Marcenaria Nonsense Artesanal",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,11 +10,9 @@
     {
       "src": "logo_nonsense.png",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "64x64 32x32 24x24 16x16"
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "standalone"
 }

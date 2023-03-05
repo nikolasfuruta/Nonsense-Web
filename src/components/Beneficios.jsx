@@ -13,14 +13,14 @@ const Beneficios = () => {
   }, []);
 
   return (
-    <Container fluid className='beneficios_container mt-5'>
+    <Container fluid className='beneficios_container pt-5 pb-md-5'>
       <Row className='p-3'>
-        <Col className='beneficios_col_a' xs={12} md={5}>
-          <h2 data-aos-duration="3000" data-aos="fade-up" className='beneficios_title'>Por que escolher a Nonsense Artesanal</h2>
+        <Col className='beneficios_col_a' xs={12} md={4}>
+          <h2 data-aos-duration="2000" data-aos="fade-up" className='beneficios_title'>Por que escolher a Nonsense Artesanal</h2>
         </Col>
-        <Col xs={12} md={7} className='beneficios_col_b'>
-            <Stack className='' data-aos-duration="3000" data-aos="fade-down" gap={3}>
-              <div className="beneficios_item"><Check /> Serviço personalizado</div>
+        <Col xs={12} md={8} className='beneficios_col_b'>
+            <Stack className='beneficios_items' data-aos="fade-down" gap={3}>
+              <div data-aos-duration="2000" className="beneficios_item"><Check /> Serviço personalizado</div>
               <div className="beneficios_item"><Check /> Projetos acompanhados por profissional de design de interiores</div>
               <div className="beneficios_item"><Check /> Mão de obra qualificada</div>
               <div className="beneficios_item"><Check /> Soluções criativas para problemas residenciais</div>

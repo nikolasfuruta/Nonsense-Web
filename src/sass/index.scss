@@ -28,6 +28,28 @@ body {
   }
 }
 
+@mixin img-size($size){
+  @media (min-width: 350px) {
+    height: $size;
+  }
+
+  @media (min-width: 576px) {
+    height: $size*1.2;
+  }
+  
+  @media (min-width: 768px) {
+    height: $size*1.5;
+  }
+  
+  @media (min-width: 992px) {
+    height: $size*1.6;
+  }
+  
+  @media (min-width: 1200px) {
+    height: $size*1.7;
+  }
+}
+
 //Header
 .header_col_a{
   display: flex;
@@ -44,7 +66,6 @@ body {
 }
 
 //Home
-
 .home_container{
   height: 500px;
   background-image: url('../img/home/home.png');
@@ -92,13 +113,18 @@ body {
     justify-content: center; 
   }
 
+  .beneficios_items{
+    display: flex;
+    justify-content: center
+  }
+
   .beneficios_title {
     @include text_size(30px);
     text-align: center;
   }
 
   .beneficios_item {
-    @include text_size(20px);
+    @include text_size(18px);
   }
 }
 
@@ -127,7 +153,29 @@ body {
   }
 }
 
-  //portfolio
+//portfolio
+.potfolio_title{
+  @include text_size(40px);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.carousel_container{
+  padding-bottom: 4rem;
+}
+.carousel_item{
+  height: 500px;
+  position: relative;
+
+  .carousel_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include img-size(100%);
+    opacity: 0.9;
+  }
+}
 
 
 
