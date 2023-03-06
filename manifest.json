@@ -1,0 +1,18 @@
+{
+  "short_name": "Nonsense Artesanal",
+  "name": "Marcenaria Nonsense Artesanal",
+  "icons": [
+    {
+      "src": "logo_nonsense.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo_nonsense.png",
+      "type": "image/png",
+      "sizes": "64x64 32x32 24x24 16x16"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
