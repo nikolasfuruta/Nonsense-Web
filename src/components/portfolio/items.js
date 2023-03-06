@@ -1,18 +1,21 @@
-import img01 from "../../img/portfolio/portfolio_01.png"
-import img02 from "../../img/portfolio/portfolio_02.png"
-import img03 from "../../img/portfolio/portfolio_03.png"
-import img04 from "../../img/portfolio/portfolio_04.png"
-import img05 from "../../img/portfolio/portfolio_05.png"
-import img06 from "../../img/portfolio/portfolio_06.png"
-import img07 from "../../img/portfolio/portfolio_07.png"
-import img08 from "../../img/portfolio/portfolio_08.png"
-import img09 from "../../img/portfolio/portfolio_09.png"
-import img10 from "../../img/portfolio/portfolio_10.png"
-import img11 from "../../img/portfolio/portfolio_11.png"
-import img12 from "../../img/portfolio/portfolio_12.png"
-import img13 from "../../img/portfolio/portfolio_13.png"
-import img14 from "../../img/portfolio/portfolio_14.png"
-import img15 from "../../img/portfolio/portfolio_15.png"
+import img01 from "../../img/portfolio02/portfolio_b_01.jpg"
+import img02 from "../../img/portfolio02/portfolio_b_02.jpg"
+import img03 from "../../img/portfolio02/portfolio_b_03.jpg"
+import img04 from "../../img/portfolio02/portfolio_b_04.jpg"
+import img05 from "../../img/portfolio02/portfolio_b_05.jpg"
+import img06 from "../../img/portfolio02/portfolio_b_06.jpg"
+import img07 from "../../img/portfolio02/portfolio_b_07.jpeg"
+import img08 from "../../img/portfolio02/portfolio_b_08.jpg"
+import img09 from "../../img/portfolio02/portfolio_b_09.jpg"
+import img10 from "../../img/portfolio02/portfolio_b_10.jpg"
+import img11 from "../../img/portfolio02/portfolio_b_11.jpg"
+import img12 from "../../img/portfolio02/portfolio_b_12.jpg"
+import img13 from "../../img/portfolio02/portfolio_b_13.jpg"
+import img14 from "../../img/portfolio02/portfolio_b_14.jpg"
+import img15 from "../../img/portfolio02/portfolio_b_15.jpg"
+import img16 from "../../img/portfolio02/portfolio_b_16.jpg"
+import img17 from "../../img/portfolio02/portfolio_b_17.jpg"
+import img18 from "../../img/portfolio02/portfolio_b_18.jpg"
 
 export const items = [
   {
@@ -74,5 +77,17 @@ export const items = [
   {
     id:14,
     image: img15
+  },
+  {
+    id:15,
+    image: img16
+  },
+  {
+    id:16,
+    image: img17
+  },
+  {
+    id:17,
+    image: img18
   },
 ];

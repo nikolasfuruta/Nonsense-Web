@@ -5,7 +5,7 @@ import { items } from './items'
 const Portfolio = () => {
   return (
     <>
-      <h2 id='portfolio' className='potfolio_title mb-0'>Nosso Portfólio</h2>
+      <h2 id='portfolio' className='potfolio_title mb-0'>Projetos</h2>
 
       <Carousel variant="dark" className='carousel_container'>
         { items.map(item => (

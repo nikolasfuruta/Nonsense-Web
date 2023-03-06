@@ -1,9 +1,17 @@
-//custom here
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Maitree&family=Raleway:wght@500&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+//variables
+$title: 'Lato', sans-serif;
+$sub_title: 'Raleway', sans-serif;
+$text:'Maitree', serif;
+$font_color: #52575D;
+$background_color: #41444B;
 
 //mixin
 @mixin text_size($size){
@@ -51,18 +59,13 @@ body {
 }
 
 //Header
-.header_col_a{
+.header_nav{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.header_title{
-  @include text_size(25px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  .header_nav_item{
+    font-family: $sub_title;
+    color: $font_color;
+  }
 }
 
 //Home
@@ -78,11 +81,12 @@ body {
   opacity: 0.9;
 
   .home_text{
-    background-color: #000;
+    background-color: $background_color;
     color: #fff;
     @include text_size(30px);
     padding: 20px;
     visibility: hidden;
+    font-family: $sub_title;
   }
 
   &:hover{
@@ -121,16 +125,19 @@ body {
   .beneficios_title {
     @include text_size(30px);
     text-align: center;
+    font-family: $sub_title;
+    color: $background_color;
   }
 
   .beneficios_item {
     @include text_size(18px);
+    font-family: $text;
+    color: $font_color;
   }
 }
 
 //sobre nós
 .about_row{
-
   .about_col{
     background-image: url('../img/about/JANTAR 1.png');
     background-repeat: no-repeat;
@@ -143,7 +150,8 @@ body {
   
     .about_text{
       font-size: 15px;
-      color: #000;
+      font-family: $text;
+      color: $background_color;
       background-color: rgb(255, 255, 255,0.8);
       padding: 5%;
       text-align: center;
@@ -156,8 +164,10 @@ body {
 //portfolio
 .potfolio_title{
   @include text_size(40px);
+  font-family: $sub_title;
+  color: $font_color;
   text-align: center;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .carousel_container{
@@ -181,14 +191,14 @@ body {
 //contato
 .contato_container{
   margin-top: 40px;
-  margin-bottom: 40px;
 
   .contato_title{
     text-align: center;
-    padding: 8rem;
+    padding: 4rem 8rem;
     color: #fff;
-    background-color: #000;
+    background-color: #52575D;
     @include text_size(40px);
+    font-family: $sub_title;
   }
 
   .contato_row{
@@ -206,6 +216,15 @@ body {
         .contato_item{
           display: flex;
           flex-direction: row;
+          h4{
+            font-family: $sub_title;
+            font-weight: bold;
+            color: $background_color;
+          }
+          a{
+            font-family: $text;
+            color: $font_color;
+          }
         }
       }
     }
@@ -219,10 +238,31 @@ body {
 
       .contato_orcamento{
         color: #fff;
-        background-color: #000;
+        background-color: $background_color;
         padding: 1rem;
+        font-family: $sub_title;
       }
     }
+  }
+}
+
+//footer
+.footer_container{
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background_color;
+  padding-top: 15px;
+
+  .footer_logo_circle{
+    border: #fff solid 2px;
+    border-radius: 100%;
+    padding: 15px;
+  }
+
+  .footer_copyright{
+    color:#fff
   }
 }
 

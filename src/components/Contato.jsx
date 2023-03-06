@@ -1,7 +1,7 @@
 import React from 'react'
-import { Col, Container, Stack, Row, Nav, Image } from 'react-bootstrap'
+import { Col, Container, Stack, Row } from 'react-bootstrap'
 import { EnvelopeAt, Telephone, GeoAlt, Clock, Instagram, Whatsapp } from 'react-bootstrap-icons';
-import logo from '../img/logo_nonsense.png'
+
 
 const Contato = () => {
   return (
@@ -61,13 +61,6 @@ const Contato = () => {
                 <a style={{textDecoration:"none", color:"black"}} aria-label="Chat on WhatsApp" href="https://wa.me/12991910263">
                   <h3><Whatsapp/></h3>
                 </a>
-              </div>
-              <div>
-                <Nav.Link href="#home" style={{textDecoration:"none", color:"black"}}>
-                  <h3>
-                    <Image  style={{width:"32px",height:"32px"}} src={logo} alt="logo" />
-                  </h3>
-                </Nav.Link>
               </div>
             </Stack>
           </div>

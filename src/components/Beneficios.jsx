@@ -25,7 +25,7 @@ const Beneficios = () => {
               <div className="beneficios_item"><Check /> Mão de obra qualificada</div>
               <div className="beneficios_item"><Check /> Soluções criativas para problemas residenciais</div>
               <div className="beneficios_item"><Check /> Entregas em até 45 dias úteis após medição fina dos ambientes de projeto.</div>
-              <div className="beneficios_item"><Check /> Garantia de 12 meses sobre as os móveis em MDF e Assistência Técnica</div>
+              <div className="beneficios_item"><Check /> Garantia de 12 meses sobre os móveis em MDF e Assistência Técnica</div>
             </Stack>
         </Col>
       </Row>
