@@ -2,7 +2,7 @@
   "name": "nonsense_web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.nonsenseartesanal.com",
+  "homepage": "https://nonsenseartesanal.com",
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
@@ -41,6 +41,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "nth-check": ">=2.0.1"
   }
+  
 }
